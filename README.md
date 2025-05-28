@@ -1,6 +1,7 @@
 # Sistema de Pagamento Simplificado
 
 Este é um sistema de pagamento simplificado desenvolvido em PHP com Laravel, que permite transferências de dinheiro entre usuários comuns e lojistas.
+Aplicação feita usando o Laravel Blade, tailwind e banco de dados sqlite  
 
 ## Funcionalidades
 
@@ -15,43 +16,14 @@ Este é um sistema de pagamento simplificado desenvolvido em PHP com Laravel, qu
 
 - PHP 8.1 ou superior
 - Composer
-- MySQL ou outro banco de dados compatível
-- Docker (opcional, mas recomendado)
+- SQLite ou outro banco de dados compatível
 
-## Instalação
-
-### Usando Docker (Recomendado)
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/payment-system.git
-cd payment-system
-```
-
-2. Copie o arquivo de ambiente:
-```bash
-cp .env.example .env
-```
-
-3. Configure o arquivo .env com suas credenciais de banco de dados
-
-4. Execute com Docker:
-```bash
-docker-compose up -d
-```
-
-5. Instale as dependências e execute as migrações:
-```bash
-docker-compose exec app composer install
-docker-compose exec app php artisan key:generate
-docker-compose exec app php artisan migrate
-```
 
 ### Instalação Manual
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/payment-system.git
+git clone https://github.com/silverbolt9000/payment-system-frontend.git
 cd payment-system
 ```
 
