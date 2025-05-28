@@ -10,7 +10,7 @@ Aplicação feita usando o Laravel Blade, tailwind e banco de dados sqlite
 - Validação de saldo antes de transferências
 - Consulta a serviço externo autorizador
 - Transações reversíveis em caso de inconsistência
-- Notificação de pagamento por e-mail/SMS
+- Notificação de pagamento.
 
 ## Requisitos
 
