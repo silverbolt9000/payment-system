@@ -16,7 +16,7 @@ Aplicação feita usando o Laravel Blade, tailwind e banco de dados sqlite
 
 - PHP 8.1 ou superior
 - Composer
-- SQLite ou outro banco de dados compatível
+- SQLite
 
 
 ### Instalação Manual
